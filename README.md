@@ -35,13 +35,16 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/reqayasa/fmr-intro-section-with-dropdown-navigation)
--   Live Site URL: [Vercel](https://fmr-intro-section-with-dropdown-navigation.vercel.app/) 
+- Live Site URL: [Vercel](https://fmr-intro-section-with-dropdown-navigation.vercel.app/) 
 
 
 ## My process
 
 ### Built with
-
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- [Responsive Image](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 ### What I learned
 
@@ -52,6 +55,7 @@ Users should be able to:
 
 
 ### Useful resources
+- [CSS Dropdown](https://www.w3schools.com/css/css_dropdowns.asp)
 
 
 ## Author

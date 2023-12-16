@@ -40,17 +40,20 @@ body {
    min-height: 100vh;
    font-family: var(--font-default);
    font-weight: 500;
-   font-size: 1.125rem;
-   line-height: 1.5;
+   font-size: 1.125rem; /* 18px */
 }
 
 h1, h2, h3 {
    margin: 0;
    line-height: 1;
+   /* margin-bottom: 4.25rem; 68px */
+   color: var(--color-almost-black);
 }
 
 p {
    margin: 0;
+   line-height: 1.5;
+   color: var(--color-medium-gray)
 }
 
 a {
@@ -58,8 +61,125 @@ a {
 }
 
 ol, ul {
-	list-style: none;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
 }
 
+picture, img {
+   width: 100%;
+}
+
+
+
+.container {
+   max-width: 71.75rem; /* 1148px */
+   margin-inline: auto;
+}
+
+.intro {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   gap: 1.75rem;
+   padding-top: 3.125rem; /* 50px */
+}
+
+.intro__text {
+   flex: 4;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: flex-start;
+}
+
+.intro__client {
+   /* margin-top: 6.25rem; 100px */
+   display: flex;
+   font-display: row;
+   gap: 1.75rem;
+   margin-top: 6rem;
+}
+
+.intro__image {
+   flex: 3;
+}
+
+.intro h1 {
+   font-size: 5rem;
+   max-width: 540px;
+   margin-top: 6rem;
+   margin-bottom: 3rem;
+}
+
+.intro p {
+   /* margin-bottom: 3.25rem; 52px */
+   margin-bottom: 3rem;
+   max-width: 436px;
+   
+}
+
+.btn {
+   font-weight: 700;
+   padding-top: 1rem;
+   padding-bottom: 1rem;
+   padding-inline: 1.875rem;
+   border-radius: 0.875rem;
+   color: var(--color-almost-white);
+   background: var(--color-almost-black);
+}
+
+@media (max-width: 1180px) {
+   .intro {
+      margin-inline: 1rem;
+   }
+}
+
+@media (max-width: 1080px) {
+   .intro h1 {
+      margin-top: 3rem;
+      margin-bottom: 1.5rem;
+   }
+
+   .intro p {
+      margin-bottom: 1.5rem;
+   }
+
+   .intro__client {
+      margin-top: 3rem;
+   }
+}
+
+@media (max-width: 800px) {
+   .intro h1 {
+      font-size: 2rem;
+   }
+}
+ 
+@media (max-width: 540px) {
+   .intro {
+      flex-direction: column;
+   }
+
+   .intro__text {
+      order: 2;
+      align-items: center;
+   }
+
+   .intro__image {
+      order: 1;
+   }
+
+   .intro h1 {
+      text-align: center;
+      margin-inline: 1rem;
+   }
+
+   .intro p {
+      text-align: center;
+      margin-inline: 1rem;
+   }
+}
 
 
