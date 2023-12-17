@@ -55,7 +55,9 @@ Users should be able to:
 
 
 ### Useful resources
-- [CSS Dropdown](https://www.w3schools.com/css/css_dropdowns.asp)
+- [CSS Dropdown](https://www.w3schools.com/css/css_dropdowns.asp) - basic concept of creating dropdown in css
+- [Inclusively Hidden](https://css-tricks.com/inclusively-hidden/) - screen reader content
+- [Stop Animation during windows resizing](https://css-tricks.com/stop-animations-during-window-resizing/)
 
 
 ## Author

@@ -19,39 +19,37 @@
 </head>
 <body>
   <header class="header">
-    <div class="header__left">
-      <a href="#" class="header__brand">snap</a>
-      <button class="header__nav-mobile">
-        <img src="asset/image/icon-menu.svg" alt=""/>
-      </button>
-      <nav>
-        <ul class="header__nav">
-          <li class="dropdown">
-            <a href="#">Features</a>
-            <ul class="dropdown-content">
-              <li><img src="asset/image/icon-todo.svg" alt=""><a href="#">Todo List</a></li>
-              <li><img src="asset/image/icon-calendar.svg" alt=""><a href="#">Calender</a></li>
-              <li><img src="asset/image/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
-              <li><img src="asset/image/icon-planning.svg" alt=""><a href="#">Planning</a></li>
-            </ul>
-          </li>
-          <li class="dropdown">
-            <a href="#">Company</a>
-            <ul class="dropdown-content">
-              <li><a href="#">History</a></li>
-              <li><a href="#">Our Team</a></li>
-              <li><a href="#">Blog</a></li>
-            </ul>
-          </li>
-          <li><a href="#">Careers</a></li>
-          <li><a href="#">About</a></li>
-        </ul>
-      </nav>
-    </div>
-    <div class="header__right">
-      <a href="#">Login</a>
-      <a href="#">Register</a>
-    </div>
+    <a href="#" class="header__brand">snap</a>
+    <button class="header__nav-toggle" aria-controls="navigation" aria-expanded="false">
+      <span class="sr-only">Menu</span>
+    </button> 
+    <nav id="navigation" class="header__nav" data-visible="false">
+      <ul class="header__nav-left">
+        <li class="dropdown">
+          <a href="#">Features</a>
+          <ul class="dropdown-content">
+            <li><img src="asset/image/icon-todo.svg" alt=""><a href="#">Todo List</a></li>
+            <li><img src="asset/image/icon-calendar.svg" alt=""><a href="#">Calender</a></li>
+            <li><img src="asset/image/icon-reminders.svg" alt=""><a href="#">Reminders</a></li>
+            <li><img src="asset/image/icon-planning.svg" alt=""><a href="#">Planning</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#">Company</a>
+          <ul class="dropdown-content">
+            <li><a href="#">History</a></li>
+            <li><a href="#">Our Team</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+      <ul class="header__nav-right">
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Register</a></li>
+      </ul>
+    </nav>
   </header>
   <main class="container">
     <section class="intro">
@@ -72,8 +70,8 @@
       </div>
       <div class="intro__image">
         <picture>
-          <source media="(max-width: 540px)" srcset="asset/image/image-hero-mobile.png">
-          <source media="(min-width: 540.25px)" srcset="asset/image/image-hero-desktop.png">
+          <source media="(max-width: 640px)" srcset="asset/image/image-hero-mobile.png">
+          <source media="(min-width: 640px)" srcset="asset/image/image-hero-desktop.png">
           <img src="asset/image/image-hero-desktop.png" alt="Hero section image">
         </picture>
       </div>    
