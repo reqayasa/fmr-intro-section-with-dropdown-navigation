@@ -47,8 +47,11 @@ Users should be able to:
 - [Responsive Image](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images)
 
 ### What I learned
+I using pseudo-element as much as i can to minimize empty and unecesery html tag. But it sometimes difficult to position pseudo-element i x, y, and z axis. 
 
+The dropdown is fully css only.
 
+I try to use Responsive Image with picture and srcset to automaticaly change image depend on screen size using only css. Its easy and work excelent.
 
 ### Continued development
 
