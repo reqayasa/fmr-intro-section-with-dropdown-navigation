@@ -308,6 +308,12 @@ button {
     max-width: 27.25rem; /* 27.25px */
 }
 
+.intro__client a:hover{
+    transform: scale(125%);
+    transition: transform;
+    transition-duration: 300ms;
+}
+
 @media (max-width: 67.5em) {
     .intro h1 {
         margin-top: 3rem;
@@ -326,12 +332,6 @@ button {
     .intro__client {
         margin-top: 3rem;
         margin-top: clamp(3rem, -1.364rem + 10.909vw, 6rem);
-    }
-
-    .intro__client a:hover{
-        transform: scale(125%);
-        transition: transform;
-        transition-duration: 300ms;
     }
 }
 
