@@ -35,7 +35,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github](https://github.com/reqayasa/fmr-intro-section-with-dropdown-navigation)
-- Live Site URL: [Vercel](https://fmr-intro-section-with-dropdown-navigation.vercel.app/) 
+- Live Site URL: [Github Pages](https://reqayasa.github.io/fmr-intro-section-with-dropdown-navigation/) 
 
 
 ## My process
