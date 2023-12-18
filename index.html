@@ -5,24 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="asset/image/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
-  
+
   <link rel="stylesheet" href="asset/css/style.css">
   <script src="asset/js/script.js" defer></script>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
   <header class="header">
     <a href="#" class="header__brand">snap</a>
     <button class="header__nav-toggle" aria-controls="navigation" aria-expanded="false">
       <span class="sr-only">Menu</span>
-    </button> 
+    </button>
+    <div class="overlays" data-visible="false" aria-hidden="true"></div>
     <nav id="navigation" class="header__nav" data-visible="false">
       <ul class="header__nav-left">
         <li class="dropdown">
@@ -74,14 +69,23 @@
           <source media="(min-width: 640px)" srcset="asset/image/image-hero-desktop.png">
           <img src="asset/image/image-hero-desktop.png" alt="Hero section image">
         </picture>
-      </div>    
+      </div>
     </section>
   </main>
-  <footer>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </div>
-  </footer>
+  <footer
+    class="attribution"
+  >
+    Challenge by &nbsp;
+    <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        >Frontend Mentor</a
+    >. Coded by &nbsp;
+    <a
+        href="https://github.com/reqayasa/fmr-faq-accordion-main"
+        >Reqayasa</a
+    >.
+</footer>
+
 </body>
 </html>

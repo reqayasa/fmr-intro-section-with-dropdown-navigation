@@ -58,6 +58,8 @@ Users should be able to:
 - [CSS Dropdown](https://www.w3schools.com/css/css_dropdowns.asp) - basic concept of creating dropdown in css
 - [Inclusively Hidden](https://css-tricks.com/inclusively-hidden/) - screen reader content
 - [Stop Animation during windows resizing](https://css-tricks.com/stop-animations-during-window-resizing/)
+- [Overlays Techniques](https://tympanus.net/codrops/2013/11/07/css-overlay-techniques/)
+- [Stacking Pseuodo Element](http://www.independent-software.com/set-stacking-order-of-pseudo-elements-below-parent-element.html) - Stact pseiode element behind parent, buts its not work for me.
 
 
 ## Author

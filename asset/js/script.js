@@ -1,5 +1,6 @@
 const navToggle = document.querySelector('.header__nav-toggle');
 const navMenu = document.querySelector('.header__nav');
+const overlays = document.querySelector('.overlays')
 
 navToggle.addEventListener('click', (e) => {
     e.preventDefault();
@@ -7,13 +8,11 @@ navToggle.addEventListener('click', (e) => {
     const isVisible = navMenu.getAttribute('data-visible');
 
     if (isVisible == 'true') {
-        console.log('is true');
-        console.log(isVisible);
+        overlays.setAttribute('data-visible', false);
         navMenu.setAttribute('data-visible', false);
         navToggle.setAttribute('aria-expanded', false);
     } else {
-        console.log('is false');
-        console.log(isVisible);
+        overlays.setAttribute('data-visible', true);
         navMenu.setAttribute('data-visible', true);
         navToggle.setAttribute('aria-expanded', true);
     }
